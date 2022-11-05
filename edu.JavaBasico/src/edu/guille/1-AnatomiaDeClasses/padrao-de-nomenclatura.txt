@@ -1,0 +1,7 @@
+Arquivo começa com letra maiúscula, finalizando com .java. Cada palavra terá letra maiúscula (Upper CamelCase).
+
+O nome da classe deve possuir o mesmo nome do arquivo.
+
+Variáveis começam com miniscula, mas são camelCase também.
+
+As variáveis fixas devem possuir nome inteiro em UpperCase.
