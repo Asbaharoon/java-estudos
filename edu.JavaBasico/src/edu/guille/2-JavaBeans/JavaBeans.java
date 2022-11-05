@@ -1,5 +1,3 @@
-package edu.guille.JavaBeans;
-
 public class JavaBeans {
   // Umas das maiores dificuldades na programação é escrever algoritmos legíveis, a níveis que sejam compreendidos por todo seu time ou por você mesmo no futuro. Para isso, a linguagem Java sugere através de convenções, uma escrita universal, para nossas classes, atributos, métodos e pacotes.
 
