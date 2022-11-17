@@ -23,5 +23,6 @@ public class AboutMeScanner {
     System.out.println("Tenho " + idade + " anos ");
     System.out.println("Minha altura é " + altura + "cm ");
 
+    scanner.close();
   }
 }
