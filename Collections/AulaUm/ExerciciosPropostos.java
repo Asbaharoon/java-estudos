@@ -107,12 +107,3 @@ public class ExerciciosPropostos {
     }
   }
 }
-
-// System.out.println("10 - Exiba a soma das notas");
-
-// Iterator<Double> iterator = notas.iterator();
-// double soma = 0d;
-// while(iterator.hasNext()) {
-//   Double next = iterator.next();
-//   soma += next;
-// }
