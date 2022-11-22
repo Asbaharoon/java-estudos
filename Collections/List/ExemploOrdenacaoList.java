@@ -1,4 +1,4 @@
-package Collections.AulaUm;
+package Collections.List;
 
 import java.util.ArrayList;
 import java.util.Collections;

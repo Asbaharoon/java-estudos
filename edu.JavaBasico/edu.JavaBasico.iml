@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/edu/guille/1-AnatomiaDeClasses" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/edu/guille/2-JavaBeans" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/edu/guille/3-TiposEVariaveis" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/edu/guille/4-Operadores" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/edu/guille/5-Metodos" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/edu/guille/6-Escopo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/edu/guille/7-PalavrasReservadas" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/edu/guille/8-JavaDocs" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
