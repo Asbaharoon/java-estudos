@@ -1,7 +1,5 @@
 package Collections.Set;
 
-import java.util.Comparator;
-
 public class FavoriteLang implements Comparable<FavoriteLang> {
     private String name;
     private String ide;

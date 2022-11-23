@@ -34,8 +34,19 @@
 <u>Características</u>: Não permite elementos duplicados e não possuí índice.
 
 <u>Implementações</u>:
-- TreeSet:
-- HashSet:
-- LinkedHashSet:  
+- TreeSet: Implementa uma coleção ordenada automaticamente.
+- HashSet: Implementa uma coleção aleatória, bem performático.
+- LinkedHashSet: Implementa uma coleção que mantém a ordem de inserção.
 
 <img src="Set.png" alt="set" width="500"/>
+
+### Interface Map
+
+*java.util.Map*
+
+<u>Características</u>: Elementos únicos para cada valor. key - value. É como o objeto do JavaScript, não posso ter propriedades repetidas.
+
+<u>Implementações</u>:
+- HashMap: Iteração aleatória, permite chaves nulas.
+- LinkedHashMap: Ordenada de acordo com a inseração ou acesso (definida na construção), permite chaves nulas. 
+- TreeMap: Implementa uma coleção ordenada, usaremos bastante em ordenações e comperações, não permite chaves nulas em regra geral.

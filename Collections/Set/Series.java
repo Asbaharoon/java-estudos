@@ -1,6 +1,5 @@
 package Collections.Set;
 
-import java.util.Comparator;
 import java.util.Objects;
 
 public class Series implements Comparable<Series> {
