@@ -15,3 +15,13 @@ Com o tratamento de exceções, um programa pode continuar executando depois de 
 - <u>Checked Exception</u>: Exceptions que *devem* ser evitados e tratados pelo dev para o programa funcionar.
 
 ---
+
+<img src="hierarquia.png" alt="hierarquia" width="500"/>
+
+---
+
+### Como realizar o tratamento?
+
+- <u>try, catch, finally</u>: cada uma define um bloco de tratamento de exceções.
+- <u>throws</u>: declara que um método pode lançar uma ou várias exceções.
+- <u>throw</u>: lança explicitamente uma exception.
