@@ -1,5 +1,3 @@
-package br.com.dio.debbuging;
-
 public class Main {
     public static void main(String[] args) {
         System.out.println("Iniciou do programa no método main.");

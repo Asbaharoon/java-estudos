@@ -1,8 +1,7 @@
 
 t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ä®Éûÿÿÿÿ
 g
-java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(Èò–Ñøÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ÀÄÿ‘
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ûÄÏ
-C
-java:S1128"(Remove this unused import 'javax.swing'.(Ìí¿Üüÿÿÿÿ
+java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(Èò–Ñøÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ê‚ûúÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÀÄÿ‘
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ûÄÏ

@@ -1,5 +1,3 @@
-package br.com.dio.debbuging;
-
 import java.util.Scanner;
 
 public class CalculadoraDeMedias {

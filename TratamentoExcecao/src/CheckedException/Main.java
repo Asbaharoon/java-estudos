@@ -7,12 +7,21 @@ import java.io.*;
 public class Main {
     public static void main(String[] args) {
         String nomeDoArquivo = "romances-blake-crouch.txt";
-        imprimirArquivoNoConsole(nomeDoArquivo);
+        try {
+            imprimirArquivoNoConsole(nomeDoArquivo);
+        } catch (FileNotFoundException e) {
+            JOptionPane.showMessageDialog(null, "Revise o nome do arquivo que você deseja imprimir!" + e.getCause());
+        } catch (IOException e) {
+            JOptionPane.showMessageDialog(null, "Ocorreu um erro inesperado. Entre em contato com o suporte!" + e.getCause());
+            e.printStackTrace();
+        } finally {
+            System.out.println("Você chegou no finally");
+        }
 
         System.out.println("Apesar da exception ou não, o programa continua...");
     }
 
-    static void imprimirArquivoNoConsole(String nomeDoArquivo) throws FileNotFoundException {
+    static void imprimirArquivoNoConsole(String nomeDoArquivo) throws IOException {
         File file = new File(nomeDoArquivo);
 
         BufferedReader br = new BufferedReader(new FileReader((file.getName())));
